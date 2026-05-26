@@ -70,6 +70,18 @@ def make_train_test(disease, strict=True):
     return (m_train, m_test, case_count, control_count)
 
 
+
+res = pl.DataFrame([
+    pl.Series("Disease", [], dtype=pl.String),
+    pl.Series("Score_Imp", [], dtype=pl.Float32),
+    pl.Series("Patient_Count", [], dtype=pl.Int32),
+    pl.Series("Case_Count", [], dtype=pl.Int32),
+    pl.Series("Control_Count", [], dtype=pl.Int32),
+    pl.Series("Strict", [], dtype=pl.Boolean),
+    pl.Series("Spec", [], dtype=pl.Float32)
+])
+
+
 strict = False
 tq = .99
 for disease in disease_list:
@@ -141,6 +153,7 @@ for disease in disease_list:
     ef = pl.concat([pd, pm])
 
     ef = ef.with_columns(
+        Disease = Disease,
         Score_Imp = score_import,
         Patient_Count = patient_count,
         Case_Count = case_count,
@@ -150,12 +163,3 @@ for disease in disease_list:
     )
 
     res = pl.concat([res, ef])
-
-    imp = imp.with_columns(
-        Disease = pl.lit(disease),
-        Patient_Count = patient_count,
-        Strict = strict,
-        Spec = pl.lit(tq)
-    )
-
-    res_imp = pl.concat([res_imp, imp])
