@@ -1,0 +1,4 @@
+PATIENT_ID	NOTE_DATE	CLINICAL_DOCUMENT_TEXT
+1003	2020-05-20	Patient presents with shortness of breath and chronic cough. No significant past medical history documented. Chest X-ray ordered.
+1003	2021-01-08	Follow-up. Chest X-ray showed hyperinflation. Spirometry pending. Differential includes asthma, COPD, and possible mucoviscidosis.
+1003	2022-01-10	Cystic fibrosis confirmed by genetic testing. Initiating care coordination.

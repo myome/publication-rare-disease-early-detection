@@ -1,0 +1,28 @@
+[
+  {
+    "symptoms": [
+      {
+        "text": "Patient presents with shortness of breath and chronic cough. No signifi",
+        "hpo_term": "Shortness of breath",
+        "hpo_id": "HP:0002094"
+      },
+      {
+        "text": " with shortness of breath and chronic cough. No significant past medical ",
+        "hpo_term": "Cough",
+        "hpo_id": "HP:0012735"
+      }
+    ],
+    "PATIENT_ID": "1003",
+    "NOTE_DATE": "2020-05-20 00:00:00"
+  },
+  {
+    "symptoms": [],
+    "PATIENT_ID": "1003",
+    "NOTE_DATE": "2021-01-08 00:00:00"
+  },
+  {
+    "symptoms": [],
+    "PATIENT_ID": "1003",
+    "NOTE_DATE": "2022-01-10 00:00:00"
+  }
+]

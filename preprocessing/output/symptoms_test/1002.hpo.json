@@ -1,0 +1,28 @@
+[
+  {
+    "symptoms": [
+      {
+        "text": "ar-old female presenting with recurrent respiratory infections and failure to thrive. Possib",
+        "hpo_term": "Respiratory infection",
+        "hpo_id": "HP:0011947"
+      },
+      {
+        "text": "nt respiratory infections and failure to thrive. Possible CF \u2014 referral to pu",
+        "hpo_term": "Failure to thrive",
+        "hpo_id": "HP:0001508"
+      }
+    ],
+    "PATIENT_ID": "1002",
+    "NOTE_DATE": "2018-11-03 00:00:00"
+  },
+  {
+    "symptoms": [],
+    "PATIENT_ID": "1002",
+    "NOTE_DATE": "2019-07-22 00:00:00"
+  },
+  {
+    "symptoms": [],
+    "PATIENT_ID": "1002",
+    "NOTE_DATE": "2020-09-01 00:00:00"
+  }
+]

@@ -1,0 +1,4 @@
+PATIENT_ID	NOTE_DATE	CLINICAL_DOCUMENT_TEXT
+1001	2019-06-10	Patient is a 12-year-old male presenting for routine follow-up. History of cystic fibrosis diagnosed in 2017. He has been on standard pancreatic enzyme replacement therapy. Lung function stable. No acute exacerbations this quarter.
+1001	2020-02-14	Follow-up visit for cystic fibrosis management. FEV1 at 88% predicted. Patient reports good adherence to airway clearance regimen. Continue current treatment plan.
+1001	2021-03-15	Annual review. Cystic fibrosis well controlled. Discussed eligibility for CFTR modulator therapy.

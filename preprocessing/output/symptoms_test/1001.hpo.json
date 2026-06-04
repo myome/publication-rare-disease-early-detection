@@ -1,0 +1,17 @@
+[
+  {
+    "symptoms": [],
+    "PATIENT_ID": "1001",
+    "NOTE_DATE": "2019-06-10 00:00:00"
+  },
+  {
+    "symptoms": [],
+    "PATIENT_ID": "1001",
+    "NOTE_DATE": "2020-02-14 00:00:00"
+  },
+  {
+    "symptoms": [],
+    "PATIENT_ID": "1001",
+    "NOTE_DATE": "2021-03-15 00:00:00"
+  }
+]

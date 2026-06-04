@@ -1,0 +1,30 @@
+[
+  {
+    "Disease": "cystic fibrosis",
+    "Synonyms": [
+      "cystic fibrosis",
+      "mucoviscidosis",
+      "fibrocystic disease of the pancreas",
+      "CF lung disease"
+    ]
+  },
+  {
+    "Disease": "marfan syndrome",
+    "Synonyms": [
+      "marfan syndrome",
+      "marfan's syndrome",
+      "marfans syndrome",
+      "arachnodactyly"
+    ]
+  },
+  {
+    "Disease": "huntington's disease",
+    "Synonyms": [
+      "huntington's disease",
+      "huntingtons disease",
+      "huntington disease",
+      "HD",
+      "hereditary chorea"
+    ]
+  }
+]
